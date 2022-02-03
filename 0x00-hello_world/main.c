@@ -7,5 +7,5 @@
  */
 int main(void)
 {
-	    return (a);
+	    return (0);
 }
