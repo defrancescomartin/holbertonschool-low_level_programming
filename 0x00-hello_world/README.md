@@ -1,4 +1,4 @@
-README
+README.md
 0. Preprocessor
 1. Compiler
 2. Assembler
@@ -7,4 +7,3 @@ README
 5. Hello, printf
 6. Size is not grandeur, and territory does not make a nation
 7. What happens when you type gcc main.c
-
