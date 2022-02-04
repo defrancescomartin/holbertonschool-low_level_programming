@@ -10,8 +10,13 @@
 
 int main(void)
 {
-	for (int c = 97; c <= 122; c++)
-		putchar (c);
+	int i = 97;
 
+	while (i < 123)
+	{
+		putchar(i);
+		i++;
+	}
+	putchar(10);
 	return (0);
 }
