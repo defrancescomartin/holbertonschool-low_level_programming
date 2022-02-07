@@ -11,7 +11,7 @@
 
 int add(int i1, int i2)
 {
-	int tot
+	int tot;
 
 	tot = i1 + i2;
 
