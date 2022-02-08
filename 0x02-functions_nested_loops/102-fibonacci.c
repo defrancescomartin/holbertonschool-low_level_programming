@@ -16,7 +16,7 @@ int main(void)
 	suma = 0;
 	fst = 0;
 	snd = 1;
-	count = 0;
+	contador = 0;
 
 	while (contador < 49)
 	{
