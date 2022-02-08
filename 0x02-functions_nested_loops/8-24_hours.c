@@ -26,13 +26,13 @@ void jack_bauer(void)
 				uMin = '0';
 				while (uMin < 58)
 				{
-					_putchar(dHora):
-					_putchar(uHora):
-					_putchar(:):
-					_putchar(dMin):
-					_putchar(uMin):
-					_putchar('\n'):
-					uMin++:
+					_putchar(dHora);
+					_putchar(uHora);
+					_putchar(:);
+					_putchar(dMin);
+					_putchar(uMin);
+					_putchar('\n');
+					uMin++;
 				}
 				uMin = '0';
 				dMin++;
