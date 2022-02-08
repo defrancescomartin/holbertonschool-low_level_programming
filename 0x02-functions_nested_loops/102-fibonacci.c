@@ -21,7 +21,7 @@ int main(void)
 	while (contador < 49)
 	{
 		suma = fst + snd;
-		printf("%li, ", sum);
+		printf("%li, ", suma);
 		fst = snd;
 		snd = suma;
 
