@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- * main - print the 50 Fib numbers starting with 1 and 2
+ * main - print the first 50 Fib numbers starting with 1 and 2
  *
  * Return: Always 0
  */
