@@ -7,7 +7,7 @@
  *
  * Return: whole hours and minutes of a day
  **/
-void jack_bauer(void);
+void jack_bauer(void)
 {
 	int dHora, uHora, dMin, uMin, hMax;
 	
