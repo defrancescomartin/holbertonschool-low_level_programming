@@ -25,7 +25,7 @@ int main(void)
 		fst = snd;
 		snd = sum;
 	}
-	printf ("%lu\n", total);
+	printf("%lu\n", total);
 
 	return (0);
 }
