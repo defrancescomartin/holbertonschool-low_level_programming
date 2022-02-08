@@ -9,40 +9,25 @@
  **/
 void jack_bauer(void)
 {
-	int dHora, uHora, dMin, uMin, hMax;
+	int hor;
+	int min;
+	int i;
 
-	hMax = 58;
-	dHora = '0';
-	while (dHora < 3)
+	for (hor = 00; hor <= 23; hor++)
 	{
-		if (dHora == '2')
+		for (min = 00; min <= 59; min++)
 		{
-			hMax = '4';
+			i = hor / 10;
+			_putchar (i + '0');
+			i = hor % 10;
+			_putchar (i + '0');
+			_putchar (':');
+			i = min / 10;
+			_putchar(i + '0');
+			i = min % 10;
+			_putchar(i + '0');
+			_putchar('\n');
 		}
-		uHora = '0';
-		while (uHora < hMax)
-		{
-			dMin = '0';
-			while (dMin < '6')
-			{
-				uMin = '0';
-				while (uMin < 58)
-				{
-					_putchar(dHora);
-					_putchar(uHora);
-					_putchar(':');
-					_putchar(dMin);
-					_putchar(uMin);
-					_putchar('\n');
-					uMin++;
-				}
-				uMin = '0';
-				dMin++;
-			}
-			dMin = '0';
-			uHora++;
-		}
-		uHora = '0';
-		dHora++;
 	}
 }
+
