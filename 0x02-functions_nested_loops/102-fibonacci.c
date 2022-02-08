@@ -1,15 +1,14 @@
 #include <stdio.h>
 
-/*
- * main - print the first 50 Fib numbers starting with 1 and 2
+/**
+ * main - prints the first 50 Fibonacci numbers
  *
  * Return: Always 0
  */
 
 int main(void)
 {
-	long int suma;
-	long int fst, snd;
+	unsigned long fst, snd, suma;
 	int contador;
 
 	suma = 0;
@@ -20,14 +19,13 @@ int main(void)
 	while (contador < 49)
 	{
 		suma = fst + snd;
-		printf("%li, ", suma);
+		printf("%lu, ", suma);
 		fst = snd;
 		snd = suma;
-
 		contador++;
 	}
 	suma = fst + snd;
-	printf("%li\n", suma);
+	printf("%lu\n", suma);
 
 	return (0);
 }
