@@ -28,7 +28,7 @@ void jack_bauer(void)
 				{
 					_putchar(dHora);
 					_putchar(uHora);
-					_putchar(:);
+					_putchar(':');
 					_putchar(dMin);
 					_putchar(uMin);
 					_putchar('\n');
