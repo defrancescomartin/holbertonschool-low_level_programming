@@ -11,6 +11,8 @@ void jack_bauer(void)
 {
 	int dHora, uHora, dMin, uMin, hMax;
 
+	hMax = 58;
+	dHora = '0';
 	while (dHora < 3)
 	{
 		if (dHora == '2')
