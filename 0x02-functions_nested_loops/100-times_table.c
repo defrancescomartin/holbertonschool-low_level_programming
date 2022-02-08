@@ -2,36 +2,36 @@
 
 /**
  * print_times_table - prints the times table
- * @n: integer for which the times table will be printed
+ * @i: integer for which the times table is printed
  *
- * Description: prints the times table
+ * Description: Same as above
  *
  * Return: void
  */
 
-void print_times_table(int n)
+void print_times_table(int i)
 {
-	int row, column, product;
+	int fil, col, prod;
 
-	if (n >= 0 && n < 15)
+	if (i >= 0 && i < 15)
 	{
-		for (row = 0; row <= n; row++)
+		for (fil = 0; fil <= i; fil++)
 		{
-			for (column = 0; column <= n; column++)
+			for (col = 0; col <= i; col++)
 			{
-				product = row * column;
+				prod = fil * col;
 
-				if (column == 0)
+				if (col == 0)
 					_putchar('0');
-				else if (product < 10)
+				else if (prod < 10)
 				{
 					_putchar(',');
 					_putchar(' ');
 					_putchar(' ');
 					_putchar(' ');
-					_putchar(product % 10 + '0');
+					_putchar(prod % 10 + '0');
 				}
-				else if (product >= 10 && product < 100)
+				else if (prod >= 10 && prod < 100)
 				{
 					_putchar(',');
 					_putchar(' ');
@@ -39,7 +39,7 @@ void print_times_table(int n)
 					_putchar((product / 10) % 10 + '0');
 					_putchar(product % 10 + '0');
 				}
-				else if (product > 99 && product < 1000)
+				else if (prod > 99 && prod < 1000)
 				{
 					_putchar(',');
 					_putchar(' ');
