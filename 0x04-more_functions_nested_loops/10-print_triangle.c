@@ -19,13 +19,13 @@ void print_triangle(int size)
 			{
 				for (space = linea; space < size; space++)
 				{
-					printf(' ');
+					_putchar(' ');
 				}
-				for (k = 1; k <= linea; k++)
+				for (hashtag = 1; hashtag <= linea; hashtag++)
 				{
-					printf('#');
+					_putchar('#');
 				}
-			printf('\n')
+			_putchar('\n');
 			linea++;
 			}
 	}
