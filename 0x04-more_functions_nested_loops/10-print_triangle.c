@@ -12,16 +12,21 @@ void print_triangle(int size)
 {
 	int linea, space, hashtag;
 
-	for (linea = 1; linea <= size; linea++)
+	if (size > 0)
 	{
-		for (space = linea; space < size; space++)
-		{
-			printf(' ');
-		}
-		for (k = 1; k <= linea; k++)
-		{
-			printf('#');
-		}
-		printf('\n')
+		while (linea < size)	
+			for (linea = 1;	linea <= size; linea++)
+			{
+				for (space = linea; space < size; space++)
+				{
+					printf(' ');
+				}
+				for (k = 1; k <= linea; k++)
+				{
+					printf('#');
+				}
+			printf('\n')
+			linea++;
+			}
 	}
 }
