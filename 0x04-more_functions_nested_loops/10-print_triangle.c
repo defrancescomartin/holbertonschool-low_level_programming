@@ -28,5 +28,9 @@ void print_triangle(int size)
 			_putchar('\n');
 			linea++;
 		}
+	else
+	{
+		_putchar('\n');
+	}
 	}
 }
