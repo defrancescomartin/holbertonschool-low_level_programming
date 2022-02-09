@@ -10,23 +10,23 @@
 
 void print_triangle(int size)
 {
-	int linea, space, hashtag;
+	int linea = 0;
+	int space, hashtag;
 
 	if (size > 0)
 	{
-		while (linea < size)	
-			for (linea = 1;	linea <= size; linea++)
+		while (linea < size)
+		{
+			for (space = size -1; space > linea; space--)
 			{
-				for (space = linea; space < size; space++)
-				{
-					_putchar(' ');
-				}
-				for (hashtag = 1; hashtag <= linea; hashtag++)
-				{
-					_putchar('#');
-				}
+				_putchar(' ');
+			}
+			for (hashtag = 0; hashtag < linea + 1; hashtag++)
+			{
+				_putchar('#');
+			}
 			_putchar('\n');
 			linea++;
-			}
+		}
 	}
 }
