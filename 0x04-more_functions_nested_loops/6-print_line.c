@@ -2,6 +2,7 @@
 
 /**
  * print_line - prints a n length _ line
+ * @n: length of line
  * Description: Same as above
  *
  * Return: void
