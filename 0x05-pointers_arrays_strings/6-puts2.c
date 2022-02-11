@@ -2,8 +2,8 @@
 
 /**
  * puts2 - print alternating chars of string
- * @str: string
- * Return: void
+ * @str: String
+ * Return: Void
  */
 
 void puts2(char *str)
