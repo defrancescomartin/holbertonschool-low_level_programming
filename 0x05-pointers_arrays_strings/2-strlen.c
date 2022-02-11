@@ -1,15 +1,19 @@
 #include "main.h"
 
 /**
- * - takes a pointer and updates the value it point to 98
- * @a: pointer 1
- * @b: pointer 2
- * Return: void
+ * _strlen - returns the length of a string
+ * @s: string
+ * Return: length of the string
  */
 
-void swap_int(int *a, int *b)
+int _strlen(char *s)
 {
-	int aux = *a;
-	*a = *b;
-	*b = aux;
+	int length = 0;
+	
+	while (s[length] != '\0')
+	{
+		length++;
+	}
+
+	return (length)
 }
