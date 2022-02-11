@@ -7,18 +7,17 @@
  * Return: void
  */
 
-void rev_string(char *s)
+void rev_strin(char *s)
 {
-	int i = 0;
+	int i;
+	int j = _strlen(s) - 1;
+	char str[] = " ";
 
-	while (s[i] != '\0')
+	for (i = 0 ; i < j ; i++)
 	{
-		i++;
-	}
-	i--;
-	while (i >= 0)
-	{
-		_putchar(s[i]);
-		i--;
+		str[0] = s[j];
+		s[j] = s[i];
+		s[i] = str[0];
+		j--;
 	}
 }
