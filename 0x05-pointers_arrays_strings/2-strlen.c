@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * swap_int - swap the values of 2 ints
+ * - takes a pointer and updates the value it point to 98
  * @a: pointer 1
  * @b: pointer 2
  * Return: void
