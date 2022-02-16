@@ -6,16 +6,17 @@
  */
 int main(void)
 {
-    long int i = 2;
-    long int num = 612852475143;
-    for (i = 2; i < num; i++)
-    {
-        if ((num % i) == 0)
-        {
-            num /= i;
-            i--;
-        }
-    }
-    printf("%ld\n", num);
-    return (0);
+	long int i = 2;
+	long int num = 612852475143;
+
+	for (i = 2; i < num; i++)
+	{
+		if ((num % i) == 0)
+		{
+			num /= i;
+			i--;
+		}
+	}
+	printf("%ld\n", num);
+	return (0);
 }
