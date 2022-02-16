@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *_atoi - asd
- *@s: asd
- *Return: asd
+ *_atoi - converts string to an int
+ *@s: strign to be converted
+ *Return: int
  */
 int _atoi(char *s)
 {
