@@ -20,9 +20,9 @@ void print_diagsums(int *a, int size)
 	a -= size;
 
 	for (i = 0; i < size; i++)
-        {
+	{
 		diagantislash += a[i];
 		a -= size;
-        }
+	}
 	printf("%d, %d\n", diagonalslash, diagantislash);
 }
