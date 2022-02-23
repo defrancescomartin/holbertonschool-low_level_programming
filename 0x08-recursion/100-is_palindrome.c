@@ -1,6 +1,6 @@
 #include "main.h"
 
-int _length (char *s)
+int _length(char *s)
 {
 
 	if (*s != '\0')
@@ -42,14 +42,14 @@ int _comparator(char *s, int first, int last)
 
 int is_palindrome(char *s)
 {
-        int length, first, last;
+	int length, first, last;
 
-        length = _length(s);
-        first = 0;
-        last = length - 1;
+	length = _length(s);
+	first = 0;
+	last = length - 1;
 
-        if (length == 0 || length == 1)
-                return (1);
-        else
-                return (_comparator(s, first, last));
+	if (length == 0 || length == 1)
+		return (1);
+	else
+		return (_comparator(s, first, last));
 }
