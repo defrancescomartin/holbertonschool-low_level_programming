@@ -7,7 +7,7 @@
  */
 int _sqrt_recursion(int n)
 {
-	return (_sqrt(n,0));
+	return (_sqrt(n, 0));
 }
 /**
  * _sqrt - calculates srqt using newton method
