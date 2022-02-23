@@ -5,7 +5,7 @@
  * @n: num
  * Return: srqt of n
  */
-int _sqrt_recursion(int n) 
+int _sqrt_recursion(int n)
 {
 	int menor;
 	int mayor;
