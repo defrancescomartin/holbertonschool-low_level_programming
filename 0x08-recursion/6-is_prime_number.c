@@ -30,6 +30,6 @@ int is_prime_number(int n)
 	}
 	else
 	{
-		return (is_prime_number(n));
+		return (1);
 	}
 }
