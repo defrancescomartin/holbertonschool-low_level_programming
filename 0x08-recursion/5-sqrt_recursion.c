@@ -7,29 +7,20 @@
  */
 int _sqrt_recursion(int n)
 {
-	int menor;
-	int mayor;
-
-	if (n < 0)
-	{
-		return (-1);
-	}
-	else if (n < 2)
-	{
-	return (n);
-	}
-	else
-	{
-	menor = _sqrt_recursion(n >> 2) << 1;
-	mayor = menor + 1;
-	}
-	if (mayor * mayor > n)
-	{
-		return (menor);
-	}
-	else
-	{
-		return (mayor);
-	}
+	return (_sqrt(n,0));
 }
+/**
+ * _sqrt - calculates srqt using newton method
+ * @a: num to calculate its sqrt
+ * @b: sqrt value
+ * Return: a compared to b
+ */
 
+int _sqrt(int a, int b)
+{
+	if (b * b == a)
+		return (b);
+	if (b * b < a)
+		return (_sqrt(a, b + 1));
+	return (-1);
+}
