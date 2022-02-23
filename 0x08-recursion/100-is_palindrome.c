@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * _length - returns length of string
+ * @s: string
+ * Return: length as integer
+ */
 int _length(char *s)
 {
 
