@@ -16,6 +16,7 @@ void _puts_recursion(char *s)
 	}
 
 	_putchar (*s); /*va imprimiendo*/
+
 	_puts_recursion(s + 1); /*aca se llama recursivamente*/
 				/*hasta llegar a '\0'*/
 }
