@@ -1,32 +1,5 @@
 #include "main.h"
 
-/**
- * is_palindrome - determinates if a string is palindrome
- * @s: string
- * 
- * Return: 1 if palindrome 0 if not
- */
-
-int is_palindrome(char *s)
-{
-	int length, first, last;
-
-	length = _length(s);
-	first = 0;
-	last = length - 1;
-
-	if (length == 0 || length == 1)
-		return (1);
-	else
-		return (_comparator(s, first, last));
-}
-
-/**
- * _length - returns length of string
- * @s: string
- * Return: length into a integer
- */
-
 int _length (char *s)
 {
 
@@ -58,4 +31,25 @@ int _comparator(char *s, int first, int last)
 		return (1);
 	else
 		return (_comparator(s, first + 1, last - 1));
+}
+
+/**
+ * is_palindrome - determinates if a string is palindrome
+ * @s: string
+ *
+ * Return: 1 if palindrome 0 if not
+ */
+
+int is_palindrome(char *s)
+{
+        int length, first, last;
+
+        length = _length(s);
+        first = 0;
+        last = length - 1;
+
+        if (length == 0 || length == 1)
+                return (1);
+        else
+                return (_comparator(s, first, last));
 }

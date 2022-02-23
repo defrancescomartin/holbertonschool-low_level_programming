@@ -10,3 +10,5 @@ int wildcmp(char *s1, char *s2);
 int _putchar(char c);
 int _sqrt(int a, int b);
 int _prime(int n, int m);
+int _length (char *s);
+int _comparator(char *s, int first, int last);
