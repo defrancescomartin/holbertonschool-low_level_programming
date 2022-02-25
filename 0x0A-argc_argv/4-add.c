@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 
 	for (i = 1; i < argc; i++)
 	{
-		sum += atol(argv[i]); /*en vez de int, a long int por las dudas*/
+		sum += atoi(argv[i]); 
 	}
 	printf("%d\n", sum);
 
