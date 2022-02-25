@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 	char *c;
 	int sum = 0;
 
-	if(argc < 2)
+	if (argc < 2)
 	{
 		printf("Error\n");
 	}
@@ -20,8 +20,8 @@ int main(int argc, char *argv[])
 	while (--argc)
 	{
 		for (c = argv[argc]; *c; c++)
-			if (*c > '9'|| *c < '0')
-			{	
+			if (*c > '9' || *c < '0')
+			{
 				printf("Error\n");
 				return (1);
 			}
