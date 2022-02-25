@@ -12,11 +12,6 @@ int main(int argc, char *argv[])
 	char *c;
 	int sum = 0;
 
-	if (argc < 2)
-	{
-		printf("Error\n");
-	}
-
 	while (--argc)
 	{
 		for (c = argv[argc]; *c; c++)
