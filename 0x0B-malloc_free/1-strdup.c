@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * *_strdup - returns a pointer to a newly allocated space in memory, which 
+ * *_strdup - returns a pointer to a newly allocated space in memory, which
  * contains a copy of the string given as a parameter
- * @str: string 
- * 
+ * @str: string
+ *
  * Return: pointer to duplicated array or null if it fails
  **/
 
@@ -19,6 +19,7 @@ char *_strdup(char *str)
 	{
 		i++;
 	}
+	i++;
 	array = malloc(i * sizeof(char));
 	if (array == NULL) /*si falla mi array -> NULL*/
 		return (NULL);
