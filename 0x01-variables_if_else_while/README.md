@@ -2,8 +2,7 @@
 
 ## Tasks ##
 
-*****Mandatory**
-
+**Mandatory**
 * 0 -
 
 * 1 -
@@ -24,7 +23,7 @@
 
 * 9 -
 
-**Advanced*****
+**Advanced**
 * 10 -
 
 * 11 -
