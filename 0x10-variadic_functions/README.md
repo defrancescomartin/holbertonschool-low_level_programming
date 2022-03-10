@@ -10,7 +10,7 @@
 * 2 - Write a function that prints strings, followed by a new line
 
 * 3 - Write a function that prints anything
- 
+
 **Advanced**
 * 4 - Write a 64-bit program in assembly that prints Hello, World,
 followed by a new line
