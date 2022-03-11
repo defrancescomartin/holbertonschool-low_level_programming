@@ -48,6 +48,7 @@ void print_f(va_list f)
 void print_s(va_list s)
 {
 	char *str;
+	
 	str = va_arg(s, char*);
 	if (str == NULL)
 	{
