@@ -61,8 +61,12 @@ void print_s(va_list s)
  */
 void print_all(const char * const format, ...)
 {
-	unsigned int i, j;
-	print_t p[] = {
+	int i, j;
+	char *separator = "";
+
+	va_list valist;
+
+	va_struct letter[] = {
 		{"c", print_c},
 		{"s", print_s},
 		{"i", print_i},
@@ -70,9 +74,24 @@ void print_all(const char * const format, ...)
 		{NULL, NULL}
 	};
 
-	va_list
+	va_start(valist, format);
 
-	va_start
-
-	va_end
+	i = 0;
+	while (format != NULL && format[i] != '\0')
+	{
+		j = 0;
+		while (letter[j].print != '\0')
+		{
+			if (letter[j].print) == format[i])
+			{
+				printf("%s", separator);
+				letter[j].p(valist);
+				separator = ", ";
+			}
+			j++;
+		}
+		i++;
+	}
+	va_end(valist);
 	printf("\n");
+}

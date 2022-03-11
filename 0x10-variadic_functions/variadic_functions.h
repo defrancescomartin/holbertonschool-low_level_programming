@@ -16,10 +16,10 @@ void print_all(const char * const format, ...);
  * @p: The function associated
  */
 
-typedef struct print
+typedef struct data_type
 {
-char *print;
-void (*p)(char*, va_list);
-} print_t;
+char print;
+void (*p)(va_list);
+} va_struct;
 
 #endif
