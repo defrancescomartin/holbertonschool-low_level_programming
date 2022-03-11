@@ -35,7 +35,7 @@ void print_i(va_list i)
 
 void print_f(va_list f)
 {
-	printf("%d", va_arg(f, double));
+	printf("%f", va_arg(f, double));
 }
 
 /**
@@ -47,7 +47,8 @@ void print_f(va_list f)
 
 void print_s(va_list s)
 {
-	char *str = va_arg(str, char*);
+	char *str;
+	str = va_arg(s, char*);
 	if (str == NULL)
 	{
 		printf("%s", "(nil)");
@@ -70,11 +71,11 @@ void print_all(const char * const format, ...)
 	va_list valist;
 
 	va_struct letter[] = {
-		{"c", print_c},
-		{"s", print_s},
-		{"i", print_i},
-		{"f", print_f},
-		{NULL, NULL}
+		{'c', print_c},
+		{'s', print_s},
+		{'i', print_i},
+		{'f', print_f},
+		{'\0', NULL}
 	};
 
 	va_start(valist, format);
