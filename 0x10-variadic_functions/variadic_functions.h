@@ -18,8 +18,8 @@ void print_all(const char * const format, ...);
 
 typedef struct data_type
 {
-char print;
-void (*p)(va_list);
+char string;
+void (*func)(va_list);
 } va_struct;
 
 #endif
