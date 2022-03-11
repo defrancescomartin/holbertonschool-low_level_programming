@@ -92,6 +92,7 @@ void print_all(const char * const format, ...)
 				printf("%s", separator);
 				letter[j].func(valist);
 				separator = ", ";
+				break;
 			}
 			j++;
 		}
