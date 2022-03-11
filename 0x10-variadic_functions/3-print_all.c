@@ -48,7 +48,7 @@ void print_f(va_list f)
 void print_s(va_list s)
 {
 	char *str;
-	
+
 	str = va_arg(s, char*);
 	if (str == NULL)
 	{
@@ -92,12 +92,13 @@ void print_all(const char * const format, ...)
 				printf("%s", separator);
 				letter[j].func(valist);
 				separator = ", ";
-				break;
 			}
 			j++;
 		}
 		i++;
 	}
+
 	va_end(valist);
+
 	printf("\n");
 }
