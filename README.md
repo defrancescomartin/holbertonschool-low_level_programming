@@ -32,8 +32,20 @@
 
 * ### 0x0E. C - Structures, typedef ###
 
+<<<<<<< HEAD
 * ### 0x0F. C - Function pointers ###
 
 * ### 0x10. C - Variadic functions ###
 
 * ### 0x12. C - Singly linked lists ###
+=======
+* ### 0x0F. C - Function pointers ### 
+
+* ### 0x10. C - Variadic functions ### 
+
+* ### ###
+
+* ### ### 
+
+* ### ### 
+>>>>>>> 34cef2e40bbf7a4c1f5b62ac970743faaaa33ea0

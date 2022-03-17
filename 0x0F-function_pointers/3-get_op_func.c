@@ -20,7 +20,10 @@ int (*get_op_func(char *s))(int, int)
 		{"%", op_mod},
 		{NULL, NULL}
 	};
+<<<<<<< HEAD
 
+=======
+>>>>>>> 34cef2e40bbf7a4c1f5b62ac970743faaaa33ea0
 	int i = 0;
 
 	while (ops[i].op != NULL)

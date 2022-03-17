@@ -7,7 +7,11 @@
  * @argc: number of args
  * @argv: array of args
  *
+<<<<<<< HEAD
  * Return: 0 if success, 98 99 or 100 if error
+=======
+ * Return: Always 0 (Success)
+>>>>>>> 34cef2e40bbf7a4c1f5b62ac970743faaaa33ea0
  */
 
 int main(int argc, char *argv[])
