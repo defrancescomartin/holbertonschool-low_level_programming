@@ -1,6 +1,6 @@
 # Low-level programming & Algorithm - Hatching out #
 
-## Projects ##
+## Projects: ##
 
 * ### 0x00. C - Hello, World ###
 
