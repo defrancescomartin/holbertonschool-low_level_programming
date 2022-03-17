@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void myStartupFun (void) __attribute__ ((constructor));
+void myStartupFun(void) __attribute__ ((constructor));
 
 /**
  * myStartupFun -  function that prints before the main function is executed
