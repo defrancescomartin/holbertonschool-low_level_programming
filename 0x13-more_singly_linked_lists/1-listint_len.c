@@ -2,7 +2,7 @@
 #include "lists.h"
 
 /**
- * list_len - returns the elements of a linked list_t list.
+ * listint_len - returns the elements of a linked list_t list.
  * @h: nointer to list
  * Return: number of elments
  */
