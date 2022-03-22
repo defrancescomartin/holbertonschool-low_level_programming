@@ -33,7 +33,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	if (new == NULL || new->next == NULL)
 		return (-1);
 
-	/*borro node en posicion (next de index -1)*/
+	/*borro node en posicion (sig de index -1)*/
 	aux = new->next;
 	new->next = aux->next;
 
