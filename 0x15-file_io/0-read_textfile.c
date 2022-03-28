@@ -1,5 +1,12 @@
 #include "main.h"
 
+/**
+ * read_textfile - reads a textfile and prints it to the POSIX SO
+ * @filename: file named Requiescat
+ * @letters: number of letters that should be read and printed
+ * Return: numbers of letters that could be read and printed
+ */
+
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fd, size;
