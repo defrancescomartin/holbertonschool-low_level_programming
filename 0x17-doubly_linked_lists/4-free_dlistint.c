@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * free_listint - frees list
+ * free_dlistint - frees list
  * @head: pointer to head list
  * Return: nothing
  */
