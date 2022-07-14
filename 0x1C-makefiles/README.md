@@ -12,3 +12,5 @@
 * 4 - A complete Makefile
 
 * 5 - Create a function def island_perimeter(grid): that returns the perimeter of the island described in grid
+
+* 6 - make -f 100-Makefile
